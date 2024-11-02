@@ -1,0 +1,32 @@
+.country{
+    max-width: 350px;
+    
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    overflow: hidden;
+    transition: all 0.3s ease-in-out;
+}
+
+
+
+.country:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+    scale: 1.05;    
+}
+
+.onn{
+    background-color: rgba(0, 0, 0, 0.881);
+    color: rgb(255, 255, 255);
+    transition: all 0.3s ease-in-out;
+}
+
+
+#search-container input{
+    color: black;
+}
